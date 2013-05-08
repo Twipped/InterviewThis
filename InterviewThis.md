@@ -55,7 +55,13 @@
 
 ##Codebase
 
+- How old is your codebase?
+
 - Do you unit test? If so, what libraries do you use?
+
+- Do you regularly correct technical debt?
+
+- On a scale of 1 to 10, how much speghetti code do you have?
 
 - What is the current state of your code documentation and testing coverage?
 
