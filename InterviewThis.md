@@ -36,7 +36,13 @@
 
 - Single product, or will I be regularly working on different projects?
 
-- How frequently does you company start a new project?
+- How frequently does your company start a new project?
+
+- Will I communicate directly with clients on a regular basis, or does this typically happen through an intermediary?
+
+- Do developers make estimates on deliverables, or are due dates normally decided upon ahead of time?
+
+- What can I expect to see in terms of project specifications and/or mock-ups prior to beginning a new project?
 
 
 ##Remote
@@ -56,6 +62,8 @@
 - How frequently will I be expected to visit the office?
 
 - Will my visits be reimbursed?
+
+- How flexible are my hours? Can I take time off during the day if needed and make up for it in the evenings?
 
 
 ##Codebase
@@ -159,4 +167,6 @@
 - What is your company policy with regards to side projects? Am I allowed to work on my own sites?
 
 - Do I own the code I make in my own time on my own hardware?
+
+- Will the company pay for training programs / certifications / conferences? What is the approval process like?
 
