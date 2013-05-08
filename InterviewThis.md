@@ -168,3 +168,5 @@
 
 - Do I own the code I make in my own time on my own hardware?
 
+- Will the company pay for training programs / certifications / conferences? What is the approval process like?
+
