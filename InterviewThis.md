@@ -38,6 +38,12 @@
 
 - How frequently does your company start a new project?
 
+- Will I communicate directly with clients on a regular basis, or does this typically happen through an intermediary?
+
+- Do developers make estimates on deliverables, or are due dates normally decided upon ahead of time?
+
+- What can I expect to see in terms of project specifications and/or mock-ups prior to beginning a new project?
+
 
 ##Remote
 
