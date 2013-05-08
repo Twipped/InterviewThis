@@ -36,7 +36,7 @@
 
 - Single product, or will I be regularly working on different projects?
 
-- How frequently does you company start a new project?
+- How frequently does your company start a new project?
 
 
 ##Remote
