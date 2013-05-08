@@ -57,6 +57,8 @@
 
 - Will my visits be reimbursed?
 
+- How flexible are my hours? Can I take time off during the day if needed and make up for it in the evenings?
+
 
 ##Codebase
 
