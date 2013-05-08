@@ -74,7 +74,7 @@
 
 - Do you regularly correct technical debt?
 
-- On a scale of 1 to 10, how much speghetti code do you have?
+- On a scale of 1 to 10, how much spaghetti code do you have?
 
 - What is the current state of your code documentation and testing coverage?
 
