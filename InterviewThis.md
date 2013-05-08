@@ -1,4 +1,4 @@
-#Development Process
+##Development Process
 
 - What will be my day to day responsibilities?
 
@@ -38,7 +38,7 @@
 - How frequently does you company start a new project?
 
 
-#Remote
+##Remote
 
 - Will the company pay for home office equipment such as monitors or furniture?
   - If yes, will that equipment be considered company property?
@@ -53,7 +53,7 @@
 - Will I have to work over a VPN?
 
 
-#Codebase
+##Codebase
 
 - Do you unit test? If so, what libraries do you use?
 
@@ -72,7 +72,7 @@
 - Do you use open source libraries, and are you aware of the licensing on those libraries?
 
 
-#PHP
+##PHP
 
 - Do you use a public framework or is it an in-house environment?
 
@@ -81,7 +81,7 @@
 - Do you use Composer?
 
 
-#JavaScript
+##JavaScript
 
 - jQuery, Prototype, Underscore, Zepto, Dojo, or other?
 
@@ -90,7 +90,7 @@
 - Coffeescript? (If yes, is it required?)
 
 
-#Developer Coordination
+##Developer Coordination
 
 - How many developers do you currently have?
 
@@ -109,7 +109,7 @@
 - Do teams have isolated areas from the rest of the staff / other teams?
 
 
-#Culture
+##Culture
 
 - What would my role at the company be?
 
@@ -126,7 +126,7 @@
 - What relationship does your dev department have with your sales department? Who sets the deadlines?
 
 
-#Company
+##Company
 
 - How many non-developer staff members does the company have?
 
