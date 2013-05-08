@@ -27,6 +27,7 @@
 - Do you maintain separate release and dev branches? (git-flow?)
 
 - Will I be provided with a new laptop?
+  - Windows, Mac or Linux? Do I get a choice?
   - Am I allowed to install anything I want on that laptop?
   - Will it have an SSD?
   - How hard do I have to justify software purchases?
@@ -51,6 +52,10 @@
 - If a portion of the team works in-office, do you have a dedicated computer to be used for video chat with remote employees?
 
 - Will I have to work over a VPN?
+ 
+- How frequently will I be expected to visit the office?
+
+- Will my visits be reimbursed?
 
 
 ##Codebase
@@ -121,6 +126,8 @@
 
 - Where would I be inserting into the organization?
 
+- Am I allowed to take my work home with me?
+
 - Am I expected to take my work home with me?
 
 - What are the expectations with regards to hours worked, deadlines, and overtime?
@@ -129,8 +136,11 @@
 
 - Open office, personal offices or cubicles?
 
+- Is there a dress code?
+
 - What relationship does your dev department have with your sales department? Who sets the deadlines?
 
+- Does the company provide snacks and/or drinks?
 
 ##Company
 
