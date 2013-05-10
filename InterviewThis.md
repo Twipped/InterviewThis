@@ -91,11 +91,6 @@
 
 - Do you use open source libraries, and are you aware of the licensing on those libraries?
 
-##C/C++
-
-- What is the fastest way to find duplicates in an 10 millions array filled with random integers 
-in range of -5 millions and 5 millions?
-
 ##PHP
 
 - Do you use a public framework or is it an in-house environment?
