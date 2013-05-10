@@ -4,7 +4,7 @@
 
 - What source control do you use? Can you explain why you chose it?
 
-- Are your repos hosted in-house or on a third-party service? Github?
+- Are your repos hosted in-house or on a third-party service? GitHub?
 
 - What is your workflow currently, with regards to developers pushing changes. Do you do pull requests, or does everyone just merge to a central repo?
 
