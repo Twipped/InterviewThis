@@ -91,7 +91,6 @@
 
 - Do you use open source libraries, and are you aware of the licensing on those libraries?
 
-
 ##PHP
 
 - Do you use a public framework or is it an in-house environment?
