@@ -70,6 +70,8 @@
 
 - How old is your codebase?
 
+- Do you have a well defined coding standard?
+
 - Do you unit test? If so, what libraries do you use?
 
 - Do you regularly correct technical debt?
