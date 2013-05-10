@@ -44,6 +44,7 @@
 
 - What can I expect to see in terms of project specifications and/or mock-ups prior to beginning a new project?
 
+- How do you track development time?
 
 ##Remote
 
@@ -153,6 +154,8 @@
 - What relationship does your dev department have with your sales department? Who sets the deadlines?
 
 - Does the company provide snacks and/or drinks?
+
+- What are your expectations productive hours a developer will have per day?
 
 ##Company
 
