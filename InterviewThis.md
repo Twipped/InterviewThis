@@ -108,6 +108,10 @@
 
 - Coffeescript? (If yes, is it required?)
 
+- Does your code follow Crockford code conventions?
+  - Semicolons?
+  - camelCase variables?
+
 
 ##Developer Coordination
 
