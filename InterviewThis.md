@@ -108,7 +108,9 @@
 
 - Coffeescript? (If yes, is it required?)
 
-- What is your variable naming convention – camel cased?
+- Does your code follow Crockford code conventions?
+  - Semicolons?
+  - camelCase variables?
 
 
 ##Developer Coordination
