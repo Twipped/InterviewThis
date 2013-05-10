@@ -108,6 +108,8 @@
 
 - Coffeescript? (If yes, is it required?)
 
+- What is your variable naming convention – camel cased?
+
 
 ##Developer Coordination
 
