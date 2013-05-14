@@ -67,7 +67,7 @@
 - How flexible are my hours? Can I take time off during the day if needed and make up for it in the evenings?
 
 
-##Codebase
+##Codebase / Architecture
 
 - How old is your codebase?
 
@@ -88,6 +88,8 @@
 - Do you use MVC or similar code structuring?
 
 - What is your primary backend language, including version?
+
+- Do you host your product yourself (Local, CoLo, VPS) or is it running on a cloud platform such as AWS or Heroku?
 
 - Do you use open source libraries, and are you aware of the licensing on those libraries?
 
