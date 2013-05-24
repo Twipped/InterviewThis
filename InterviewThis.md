@@ -90,7 +90,9 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - On a scale of 1 to 10, how much spaghetti code do you have?
 
-- What is the current state of your code documentation and testing coverage?
+- How well documented is your codebase?
+  - Do you use automated documentation systems like PHPDoc or JSDoc?
+  - Do you maintain a wiki?
 
 - Pure CSS, or compiled middleware (LESS, SASS, etc)?
 
