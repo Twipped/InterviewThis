@@ -84,6 +84,7 @@ Use your discretion when choose what questions to ask and when to ask them.
 - Do you unit test?
   - What libraries do you use?
   - What is your testing methodology? (BDD, TDD, Spike & Stabilize, ...)
+  - What is your current level of test coverage? Are you happy with it?
 
 - Do you regularly correct technical debt?
 
