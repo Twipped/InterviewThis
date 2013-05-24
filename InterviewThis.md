@@ -71,7 +71,9 @@
 
 - How old is your codebase?
 
-- Do you unit test? If so, what libraries do you use?
+- Do you unit test?
+  - What libraries do you use?
+  - What is your testing methodology? (BDD, TDD, Spike & Stabilize, ...)
 
 - Do you regularly correct technical debt?
 
