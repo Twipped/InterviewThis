@@ -1,3 +1,13 @@
+###Disclaimer
+
+This is not a checklist, this is not a shopping list. If you send this entire list to an employer, they probably wont be calling you back. This list is intended to serve as a reference point for things to be aware of during your interview process. Not all of these questions will be relevant to every person or position, you should choose the ones that are relevant to you and what you are interviewing for.  It's ok for there to be questions on this list that you personally do not care about.
+
+The questions on this list are not all appropriate for the initial interview, many could not even be answered by the HR person likely to conduct an initial interview. This list is intended to be a comprehensive collection of things a developer may want to know about a company before they accept an offer.
+
+Use your discretion when choose what questions to ask and when to ask them.
+
+#Interview This!
+
 ##Development Process
 
 - What will be my day to day responsibilities?
