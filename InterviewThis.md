@@ -1,50 +1,43 @@
-###Disclaimer
+## Interview This!
 
-This is not a checklist, this is not a shopping list. If you send this entire list to an employer, they probably wont be calling you back. This list is intended to serve as a reference point for things to be aware of during your interview process. Not all of these questions will be relevant to every person or position, you should choose the ones that are relevant to you and what you are interviewing for.  It's ok for there to be questions on this list that you personally do not care about.
+### Disclaimer
 
-The questions on this list are not all appropriate for the initial interview, many could not even be answered by the HR person likely to conduct an initial interview. This list is intended to be a comprehensive collection of things a developer may want to know about a company before they accept an offer.
+**This is neither a checklist nor a shopping list.** If you send this entire list to an employer they probably won't be calling you back. This list is intended to serve as a reference point for things to be prepared for during the interview process. 
 
-Use your discretion when choose what questions to ask and when to ask them.
+**Not all of these questions will be relevant to every person or position.** You should choose the ones that are relevant to you and the position you are interviewing for. It's okay for there to be questions on this list that you personally do not care about. 
 
-#Interview This!
+**Not all of the questions in this list are appropriate for the initial interview**, may not even be answered by the HR person likely to conducting an initial interview. This list is intended to be a comprehensive collection of things a developer may want to know about a company before they accept an offer.
 
-##Development Process
+Use your discretion when choosing which questions to ask and when to ask them. 
 
-- What will be my day to day responsibilities?
+---
 
-- What source control do you use? Can you explain why you chose it?
+### Company's Development Process
 
-- Are your repos hosted in-house or on a third-party service? GitHub?
+- What are some example daily responsibilities for this role?
 
-- What is your workflow currently, with regards to developers pushing changes. Do you do pull requests, or does everyone just merge to a central repo?
+- What source control software do you use? Can you explain why you chose it?
 
-- Are you using a ticket system or is it more play it by ear? 
+- Are your source repositories hosted in-house or on a third-party service like Github?
 
-- Do you have a code review process?
+- What are your branching, versioning, and release strategies? 
 
-- Do you have established code style rules?
-  - Tabs or spaces?
-  - Allman or BSD braces?
+- Do you follow a coding style guide?
 
 - What are your development environments like?
-  - Virtual Machines?  Local (VirtualBox) or Remote (ESXi)?
+  - Virtual Machines?
   - Does everyone have an identical development environment?
-  - Are you using vagrant and/or puppet/chef?
   - How closely do the dev environments mirror your production environment?
 
-- What is your release schedule like?
+- Do you write unit tests?
+  - What test harness or framework do you use?
+  - Do you follow a testing methodology such as BDD, TDD, Spike & Stabilize, etc.
 
-- Do you maintain separate release and dev branches? (git-flow?)
+- Are you using a ticket or issue system?
 
-- Will I be provided with a new laptop?
-  - Windows, Mac or Linux? Do I get a choice?
-  - Am I allowed to install anything I want on that laptop?
-  - Will it have an SSD?
-  - How hard do I have to justify software purchases?
+- Do you have dedicated testers and/or QA?
 
-- Which comes first, bugs or features?
-
-- Single product, or will I be regularly working on different projects?
+- Single projects, or will I be regularly rotating between projects?
 
 - How frequently does your company start a new project?
 
@@ -56,51 +49,26 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - How do you track development time?
 
-##Remote
 
-- Will the company pay for home office equipment such as monitors or furniture?
-  - If yes, will that equipment be considered company property?
-  - Would I have to return it if/when I leave the company?
-
-- Do you have a team chat setup such as IRC or Jabber? Do your developers actively use it, is it their primary communication channel?
-
-- Do your developers use video chat software such as Skype or Google Hangouts?
-
-- If a portion of the team works in-office, do you have a dedicated computer to be used for video chat with remote employees?
-
-- Will I have to work over a VPN?
- 
-- How frequently will I be expected to visit the office?
-
-- Will my visits be reimbursed?
-
-- How flexible are my hours? Can I take time off during the day if needed and make up for it in the evenings?
-
-
-##Codebase / Architecture
+### Codebase / Architecture
 
 - How old is your codebase?
 
-- Do you unit test?
-  - What libraries do you use?
-  - What is your testing methodology? (BDD, TDD, Spike & Stabilize, ...)
-  - What is your current level of test coverage? Are you happy with it?
+- What is your current level of test coverage?
 
 - Do you regularly correct technical debt?
 
-- On a scale of 1 to 10, how much spaghetti code do you have?
+- Are you proud of your current code quality? How do you measure and work to improve this?
 
 - How well documented is your codebase?
-  - Do you use automated documentation systems like PHPDoc or JSDoc?
+  - Do you use automated documentation tools, like phpDocumentor or JSDoc?
   - Do you maintain a wiki?
 
-- Pure CSS, or compiled middleware (LESS, SASS, etc)?
-
-- What is your minimum supported version of IE?
-
-- Does your codebase require a build process, and is it automated?
+- Does your codebase require a build process, and is it automated using tools like Chef, Puppet, Vagrant?
 
 - Do you use MVC or similar code structuring?
+
+- What has been your experience with NoSQL databases?
 
 - What is your primary backend language, including version?
 
@@ -109,74 +77,80 @@ Use your discretion when choose what questions to ask and when to ask them.
 - Do you use open source libraries, and are you aware of the licensing on those libraries?
 
 
-##PHP
+### PHP
 
-- Do you use a public framework or is it an in-house environment?
+- What frameworks or platforms do you utilize most? ZEND, Cake, Symfony, Wordpress, Joomla?
 
-- Do you use PHP driven html templates, or a third-party template engine such as Smarty or Twig?
+- Do you use third-party template engines such as Twig or Smarty?
 
-- Do you use Composer?
+- Do you utilize a particular package management tool, such as Composer or Phing?
+
+- What debugging and testing tools do you use? PHPUnit, Xdebug?
 
 
-##JavaScript
+### JavaScript
 
-- jQuery, Prototype, Underscore, Zepto, Dojo, or other?
+- Do you write vanilla JavaScript use a framework helper or Coffeescript?
 
-- Do you use a templating engine, such as Mustache or Handlebars?
+- Are there JavaScript libraries you find yourself utilizing frequently? jQuery, Node.js, Backbone, etc.
 
-- Coffeescript? (If yes, is it required?)
+- Do you use a templating engine such as Mustache or Handlebars?
 
 - Does your code follow Crockford code conventions?
   - Semicolons?
   - camelCase variables?
 
 
-##Developer Coordination
+### Developer Coordination
 
-- How many developers do you currently have?
+- Can you provide a high level overview of your development teams?
 
-- How large are your teams?
+- How much time and at what frequency do team members find themselves in meetings?
 
-- How frequently do team members find themselves in meetings?
+- Who manages team schedules, deadlines, etc?
 
-- Do your developers pair program on a regular basis?
+- Do you follow a project management methodology, such as Agile, Scrum, Waterfall, etc?
 
-- Do you have a methodology for project management (Agile, scrum, etc?)
+- Do you use project management software such as JIRA, Basecamp, Redmine, Bugzilla, etc?
 
 - Do your developers use screen sharing or collaborative coding tools?
 
-- Are teams seated together?
-
-- Do teams have isolated areas from the rest of the staff / other teams?
+- Do you have a realtime team chat setup, such as IRC, HipChat, or Jabber? Do your developers actively use it? 
 
 
-##Culture
+### Design & UIx
 
-- What would my role at the company be?
+- Is your design in-house or outsourced? If in-house, could you describe that team?
 
-- Where would I be inserting into the organization?
+- Is there clear internal separation between front and back end teams and roles, or do the two cross over into each other?
 
-- Am I allowed to take my work home with me?
+- Do you write vanilla CSS or transcompile from LESS, SASS, Compass, etc?
 
-- Am I expected to take my work home with me?
+- What is your minimum supported version of IE?
 
-- What are the expectations with regards to hours worked, deadlines, and overtime?
 
-- How much vacation time do you provide?  How much lead time is expected on vacation requests?
+### Culture
 
-- Open office, personal offices or cubicles?
+- What would my official role for the company be?
 
-- Is there a dress code?
+- What department does this role serve and who would I report to?
 
-- What relationship does your dev department have with your sales department? Who sets the deadlines?
+- What are developer working environments like? Isolated, quiet, walled, open-air, etc.
 
-- Does the company provide snacks and/or drinks?
+- How do you work to foster continued growth? Code review, pair programming, etc?
 
-- What are your expectations productive hours a developer will have per day?
+- Am I expected [or allowed] to take work home?
 
-##Company
+- How do people in your office dress? Formal, casual?
 
-- How many non-developer staff members does the company have?
+- Who does your company's sales?
+
+- What do people commonly do for lunch?
+
+
+### Company
+
+- How many developers work at your company [vs. non-development staff]?
 
 - Who is your healthcare provider?
 
@@ -184,13 +158,29 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - Is your company currently profitable?
 
-- Does your company release open source code?
+- Does your company release or contribute to open source software?
 
-- What is your company policy with regards to me releasing open source code (personal projects)? If there is an approval process, how lengthy is it?
 
-- What is your company policy with regards to side projects? Am I allowed to work on my own sites?
+### Work Terms & Conditions
 
-- Do I own the code I make in my own time on my own hardware?
+- How do you measure productivity and what are your expectations?
 
-- Will the company pay for training programs / certifications / conferences? What is the approval process like?
+- Is this position W-2, 1099, through a recruiting firm, etc?
 
+- Is this an in-house or a remote position?
+
+- What are in-office work hours? Flexible, 9-5, etc.
+
+- What are the expectations with regards to hours worked, deadlines, and overtime?
+
+- What is your company policy with regards to side projects?
+
+- Do I own the code I make in my own time using my own hardware?
+
+- What is your company policy in regards to me releasing open source code, such as personal projects? If there is an approval process, could you describe it?
+
+- Does the company pay for training programs, certifications, conferences? If so, what are some examples from past experiences?
+
+- Does the company issue assets such as laptops, smartphones, air cards, or monitors?
+  - If no, does the company re-imburse for services such as cellular or home internet?
+  - Do I get to pick my hardware, OS, or software?
