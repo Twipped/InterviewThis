@@ -154,7 +154,19 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - What would my role at the company be?
 
-- Where would I be inserting into the organization?
+-	These are tough economic times, and every position is precious when it comes to the budget. Why did you decide to hire somebody for this position instead of the many other roles / jobs you could have hired for? What about this position made your prioritize it over others?
+
+-	What is the rhythm to the work around here? Is there a time of year that it's all hands on deck and we're pulling all-nighters, or is it pretty consistent throughout the year? How about during the week / month? Is it pretty evenly spread throughout the week / month, or are there crunch days?
+
+-	In my career, I've primarily enjoyed working with big / small / growing / independent / private / public / family-run companies. If that's the case, how successful will I be at your firm?
+
+-	Who are the heroes at your company? What characteristics do the people who are most celebrated have in common with each other? Conversely, what are the characteristics that are common to the promising people you hired, but who then flamed out and failed or left? As I'm considering whether or not I'd be successful here, how should I think about the experiences of the heroes and of the flame-outs?
+
+- Where would I be working in the organization?
+
+- What is your reward system? Is it a star system / team-oriented / equity-based / bonus-based / "attaboy!"-based? Why is that your reward system? What do you guys hope to get out of it, and what actually happens when you put it into practice? What are the positives and the negatives of your reward system? If you could change any one thing, what would it be?
+
+-	What type of people are successful here? What type of people are not?
 
 - Am I allowed to take my work home with me?
 
@@ -176,6 +188,32 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 ##Company
 
+- What's the biggest change your group has gone through in the last year? Does your group feel like the recession is over and things are getting better, or are things still pretty bleak?
+
+-	If I get the job, how do I earn a "gold star" on my performance review? What are the key accomplishments you'd like to see in this role over the next year?
+
+-	About which competitor are you most worried?
+
+-	How does sales / operations / technology / marketing / finance work around here? (I.e., groups other than the one you're looking to work in.)
+
+-	What's one thing that's key to this company's success that somebody from outside the company wouldn't know about?
+
+-	How did you get your start in this industry? Why do you stay?
+
+-	What are your group's best and worst working relationships with other groups in the company?
+
+-	What keeps you up at night? What's your biggest worry these days?
+
+-	What's the timeline for making a decision on this position? When should I get back in touch with you?
+
+-	If we have a very successful 2015, what would that look like? What will have have happened over the next 12 months? How does this position help achieve that?
+
+-	What's your (or my future boss') leadership style?
+
+-	How does the company / my future boss do performance reviews? How do I make the most of the performance review process to ensure that I'm doing the best I can for the company?
+
+-	What information is shared with the employees (revenues, costs, operating metrics)? Is this an open-book shop, or do you play it closer to the vest? How is information shared? How do I get access to the information I need to be successful in this job?
+
 - How many non-developer staff members does the company have?
 
 - Who is your healthcare provider?
@@ -193,4 +231,8 @@ Use your discretion when choose what questions to ask and when to ask them.
 - Do I own the code I make in my own time on my own hardware?
 
 - Will the company pay for training programs / certifications / conferences? What is the approval process like?
+
+
+
+
 
