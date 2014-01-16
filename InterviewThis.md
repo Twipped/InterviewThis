@@ -152,6 +152,8 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 ##Culture
 
+- When you came to the company, what made you decide to come to this company? 
+
 - What would my role at the company be?
 
 -	These are tough economic times, and every position is precious when it comes to the budget. Why did you decide to hire somebody for this position instead of the many other roles / jobs you could have hired for? What about this position made your prioritize it over others?
