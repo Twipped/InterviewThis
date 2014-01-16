@@ -152,8 +152,6 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 ##Culture
 
-- When you came to the company, what made you decide to come to this company? 
-
 - What would my role at the company be?
 
 -	These are tough economic times, and every position is precious when it comes to the budget. Why did you decide to hire somebody for this position instead of the many other roles / jobs you could have hired for? What about this position made your prioritize it over others?
@@ -161,6 +159,8 @@ Use your discretion when choose what questions to ask and when to ask them.
 -	What is the rhythm to the work around here? Is there a time of year that it's all hands on deck and we're pulling all-nighters, or is it pretty consistent throughout the year? How about during the week / month? Is it pretty evenly spread throughout the week / month, or are there crunch days?
 
 -	In my career, I've primarily enjoyed working with big / small / growing / independent / private / public / family-run companies. If that's the case, how successful will I be at your firm?
+
+- What made you (the interviewer) choose to join this company?
 
 -	Who are the heroes at your company? What characteristics do the people who are most celebrated have in common with each other? Conversely, what are the characteristics that are common to the promising people you hired, but who then flamed out and failed or left? As I'm considering whether or not I'd be successful here, how should I think about the experiences of the heroes and of the flame-outs?
 
@@ -186,7 +186,7 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - Does the company provide snacks and/or drinks?
 
-- What are your expectations productive hours a developer will have per day?
+- What are your expectations for how many productive hours a developer will have per day?
 
 ##Company
 
