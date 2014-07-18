@@ -55,6 +55,15 @@ Use your discretion when choose what questions to ask and when to ask them.
 - What can I expect to see in terms of project specifications and/or mock-ups prior to beginning a new project?
 
 - How do you track development time?
+ 
+- How do you handle change requests?
+
+- Do you have a SLA (Service Layer Agreement)?
+  - Do you have a gaurenteed TAT?  If so how long?
+  - What is the esclation plan?  What are the consequences if the plan is not followed?
+  - Do you have on call hours?
+    - What is the on call schedule 
+
 
 
 ##Remote
