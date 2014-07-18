@@ -56,6 +56,7 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - How do you track development time?
 
+
 ##Remote
 
 - Will the company pay for home office equipment such as monitors or furniture?
@@ -112,10 +113,15 @@ Use your discretion when choose what questions to ask and when to ask them.
 ##PHP
 
 - Do you use a public framework or is it an in-house environment?
+  - When you find a bug in a public framework, do you give it back to the commumnity?
 
 - Do you use PHP driven html templates, or a third-party template engine such as Smarty or Twig?
 
 - Do you use Composer?
+
+- Which version of PHP are you using? 
+  - What is the update plan for new PHP releases
+
 
 
 ##JavaScript
