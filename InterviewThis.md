@@ -148,7 +148,7 @@ Use your discretion when choose what questions to ask and when to ask them.
   - Semicolons?
   - camelCase variables?
 
-## System administration / IT operations
+## System & Network Administration / IT Operations
 
 - Do you use a configuration management tool? (Puppet, Chef, cfengine, Ansible)
   - Why was it choosen?
@@ -194,12 +194,22 @@ Use your discretion when choose what questions to ask and when to ask them.
 - How do you test fault tolerance? Do you have some kind of "[Chaos Monkey](http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html)"?
 
 - Is there a process for self-build packages (.deb/.rpm/.msi) to be put on some internal repository when an official repository can't provide a package/bugfix?
+ 
+- How do you manage IP addresses and DNS records on your network?
 
-## Monitoring / On-call duty
+- Do you have plans for (switching to) IPv6?
+
+- Do you categorize your networks? (database server network, frontend network, middleware network?) or is everything mixed together in various networks?
+
+- Are DEV/QA/PreLIVE/LIVE systems all in one big network, or is each on a separate network? Are they firewalled so a DEV system can't DoS a LIVE system?
+
+- What is the process for managing rules on internal/external firewalls?
+
+### Monitoring / On-call duty
 
 - Do you use any monitoring software? (Nagios, Icinga, Zabbix, etc.)
 
-- How does it inform me of an error condition? (Email, SMS, big monitors in each teams room, etc.)
+- How does it inform staff of error conditions? (Email, SMS, big monitors in each teams room, etc.)
 
 - Is there a permanent on-call duty for each IT team?
 
@@ -207,22 +217,11 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - Is there an escalation process if someone cannot be reached?
 
-- Do the developers/operations also have an on-call duty? (In case they do the application rollout/-back, etc.)
+- Do the developers also have an on-call duty?
 
 - Does time working on incidents/problems afterhours, when on on-call duty, count as overtime?
 
-- Are employees expected to be doing afterhours work while on-call?
-
-## Network administration
-- How do you manage IP addresses and DNS records on your network?
-
-- What are your plans for (switching to) IPv6?
-
-- Do you categorize your networks? (database server network, frontend network, middleware network?) or is everything mixed together in various networks?
-
-- Are DEV/QA/PreLIVE/LIVE systems all in one big network, or is each on a separate network? Are they firewalled so a DEV system can't DoS a LIVE system?
-
-- What is the process for managing rules on internal/external firewalls?
+- Are employees expected to be doing afterhours work while waiting on-call?
 
 
 ##Developer Coordination
