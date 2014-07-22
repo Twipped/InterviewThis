@@ -205,7 +205,7 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - What is the process for managing rules on internal/external firewalls?
 
-### Monitoring / On-call duty
+## Monitoring / On-call duty
 
 - Do you use any monitoring software? (Nagios, Icinga, Zabbix, etc.)
 
