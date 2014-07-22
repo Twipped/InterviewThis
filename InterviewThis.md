@@ -193,7 +193,7 @@ Use your discretion when choose what questions to ask and when to ask them.
 - Is there a wiki for server documentation/howtos/best practises?
  
 - Do you use the same OS on all your servers? Or just what fits best?
-  - Why did you choose your OS?
+  - Why did you choose your OS? What where the requirements?
 
 - Are systems and services standarized? Or does everyone use what he wants to?
 
@@ -210,7 +210,7 @@ Use your discretion when choose what questions to ask and when to ask them.
   - Do you agree that uptime is a good indicator for system reliability?
 
 - How do you test fault tolerance? Do you have some kind of "Chaos Monkey"?
-  - Read: http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html
+  - For understanding, read: http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html
 
 - Is there a process for self-build packages (.deb/.rpm/.msi) to be put on some internal repository when an official repository can't provide a package/bugfix?
 
