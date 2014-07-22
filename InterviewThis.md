@@ -174,7 +174,7 @@ Use your discretion when choose what questions to ask and when to ask them.
 - Is there a wiki for server documentation/howtos/best practises?
  
 - Do you use the same OS distribution on all your servers, or is each server configured for specific needs?
-  - Why did you choose your OS? What where the requirements?
+  - Why did you choose your OS? What were the requirements?
 
 - Are development systems and services standarized, or do developers choose their own environments?
 
