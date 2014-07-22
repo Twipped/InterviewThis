@@ -167,6 +167,80 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - Do teams have isolated areas from the rest of the staff / other teams?
 
+## System administration / IT operations
+- Do you use a configuration management tool? (Puppet, Chef, cfengine, Ansible)
+  - Why was it choosen? Is its use accepted throughout your IT staff? 
+
+- How do you keep track of changes on a system? (Like: subversion repository for puppet code where every admin commits)
+ 
+- How is the process for granting somebody access rights (RDP, SSH, etc.) to a system?
+ - What about different access levels? (Like: How to get root/administrator rights)
+
+- Have developers admin/root rights on systems?
+  - If yes: Why?
+ 
+- Do you have different stages for testing/development? (Like: DEV, QA, PreLIVE, LIVE)
+ 
+- Are developers allowed to connect to systems outside of the development environment?
+
+- Do you have a Change Management process? (ITIL, etc.)
+ 
+- How do you organize system administration, application development, application deployment and application operating so they fit together?
+ 
+- Do you use a standard like DITA (http://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) to have an Enterprise information integration (http://en.wikipedia.org/wiki/Enterprise_information_integration) based view?
+  - Or a CMDB in ITIL terms
+ 
+- Is there a wiki for server documentation/howtos/best practises?
+ 
+- Do you use the same OS on all your servers? Or just what fits best?
+  - Why did you choose your OS? What where the requirements?
+
+- Are systems and services standarized? Or does everyone use what he wants to?
+
+- Can I use the tools I want? Or only approved ones?
+
+- After how many years do you renew your server hardware?
+ 
+- Do I have to replace hardware parts myself or is there a dedicated team?
+
+- How do you do loadbalancing? What software/product do you use and why?
+  - Do you plan your application to scale horizontally or vertically?
+
+- What is the average uptime of your servers?
+  - Do you agree that uptime is a good indicator for system reliability?
+
+- How do you test fault tolerance? Do you have some kind of "Chaos Monkey"?
+  - For understanding, read: http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html
+
+- Is there a process for self-build packages (.deb/.rpm/.msi) to be put on some internal repository when an official repository can't provide a package/bugfix?
+
+## Monitoring / On-call duty
+- What monitoring application do you use? (Nagios, Icinga, Zabbix, etc.)
+
+- How does it inform me of an error condition? (Email, SMS, big monitors in each teams room, etc.)
+
+- Is there a permanent on-call duty for each IT team?
+
+- Is there a permanent "control center" that keeps track of events and informs the responsible on-call duty? Or is the on-call duty activated by eMails/SMS sent by the monitoring system?
+
+- Is there an escalation process if somebody can't be reached?
+
+- Do the developers/operating also have an on-call duty? (In case they do the application rollout/-back, etc.)
+
+- Does time working on incidents/problems afterhours, when on on-call duty, count as worktime? Or is it payed with my on-call duty extra payment? Or both? Do you even pay for on-call duty?
+
+- Is on-call duty commonly mistaken for "Do project stuff afterhours because you are reachable" by project managers in your company?
+
+## Network administration
+- How do you manage IP addresses and DNS records on your network?
+
+- What are your plans for (switching to) IPv6?
+
+- Do you categorize your networks? (database server network, frontend network, middleware network?) Or just everything mixed together in various networks?
+
+- Are DEV/QA/PreLIVE/LIVE systems all in one big network? Or do you got separate networks for them? Are they firewalled so a DEV system can't DoS a LIVE system?
+
+- How is the process to get new firewall rules on internal/external firewalls?
 
 ##Culture
 
