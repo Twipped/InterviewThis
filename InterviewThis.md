@@ -148,6 +148,82 @@ Use your discretion when choose what questions to ask and when to ask them.
   - Semicolons?
   - camelCase variables?
 
+## System administration / IT operations
+
+- Do you use a configuration management tool? (Puppet, Chef, cfengine, Ansible)
+  - Why was it choosen?
+  - Is its use accepted throughout your IT staff?
+
+- Are configurations version controlled?
+ 
+- What is the process for granting a user access rights (RDP, SSH, etc.) to a system?
+
+- Are there multiple access levels for different classes of user?
+
+- Do developers have admin/root rights on systems?
+  - If yes: Why?
+ 
+- Do you have different staging environments for testing/development? (Like: DEV, QA, PreLIVE, LIVE)
+
+- Are developers allowed to connect to systems outside of the development environment?
+
+- Do you have a Change Management process? (ITIL, etc.)
+ 
+- How do you organize system administration, application development, application deployment and application operating so they fit together?
+ 
+- Is there a wiki for server documentation/howtos/best practises?
+ 
+- Do you use the same OS distribution on all your servers, or is each server configured for specific needs?
+  - Why did you choose your OS? What where the requirements?
+
+- Are development systems and services standarized, or do developers choose their own environments?
+
+- Do tools need to be approved before use, or may I use whatever I want?
+
+- How frequently do you replace server hardware?
+ 
+- Do I have to replace hardware parts myself or is there a dedicated team / external contractor?
+
+- What software / services do you use to load balance?
+
+- Are your applications architectured for horizontal or vertical scaling?
+
+- What is the average uptime of your servers?
+  - Do you consider uptime to be a good indicator for system reliability?
+
+- How do you test fault tolerance? Do you have some kind of "[Chaos Monkey](http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html)"?
+
+- Is there a process for self-build packages (.deb/.rpm/.msi) to be put on some internal repository when an official repository can't provide a package/bugfix?
+
+## Monitoring / On-call duty
+
+- Do you use any monitoring software? (Nagios, Icinga, Zabbix, etc.)
+
+- How does it inform me of an error condition? (Email, SMS, big monitors in each teams room, etc.)
+
+- Is there a permanent on-call duty for each IT team?
+
+- Is there a permanent "control center" that keeps track of events and informs the responsible on-call duty?
+
+- Is there an escalation process if someone cannot be reached?
+
+- Do the developers/operations also have an on-call duty? (In case they do the application rollout/-back, etc.)
+
+- Does time working on incidents/problems afterhours, when on on-call duty, count as overtime?
+
+- Are employees expected to be doing afterhours work while on-call?
+
+## Network administration
+- How do you manage IP addresses and DNS records on your network?
+
+- What are your plans for (switching to) IPv6?
+
+- Do you categorize your networks? (database server network, frontend network, middleware network?) or is everything mixed together in various networks?
+
+- Are DEV/QA/PreLIVE/LIVE systems all in one big network, or is each on a separate network? Are they firewalled so a DEV system can't DoS a LIVE system?
+
+- What is the process for managing rules on internal/external firewalls?
+
 
 ##Developer Coordination
 
@@ -167,98 +243,20 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - Do teams have isolated areas from the rest of the staff / other teams?
 
-## System administration / IT operations
-- Do you use a configuration management tool? (Puppet, Chef, cfengine, Ansible)
-  - Why was it choosen? Is its use accepted throughout your IT staff? 
-
-- How do you keep track of changes on a system? (Like: subversion repository for puppet code where every admin commits)
- 
-- How is the process for granting somebody access rights (RDP, SSH, etc.) to a system?
- - What about different access levels? (Like: How to get root/administrator rights)
-
-- Have developers admin/root rights on systems?
-  - If yes: Why?
- 
-- Do you have different stages for testing/development? (Like: DEV, QA, PreLIVE, LIVE)
- 
-- Are developers allowed to connect to systems outside of the development environment?
-
-- Do you have a Change Management process? (ITIL, etc.)
- 
-- How do you organize system administration, application development, application deployment and application operating so they fit together?
- 
-- Do you use a standard like DITA (http://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture) to have an Enterprise information integration (http://en.wikipedia.org/wiki/Enterprise_information_integration) based view?
-  - Or a CMDB in ITIL terms
- 
-- Is there a wiki for server documentation/howtos/best practises?
- 
-- Do you use the same OS on all your servers? Or just what fits best?
-  - Why did you choose your OS? What where the requirements?
-
-- Are systems and services standarized? Or does everyone use what he wants to?
-
-- Can I use the tools I want? Or only approved ones?
-
-- After how many years do you renew your server hardware?
- 
-- Do I have to replace hardware parts myself or is there a dedicated team?
-
-- How do you do loadbalancing? What software/product do you use and why?
-  - Do you plan your application to scale horizontally or vertically?
-
-- What is the average uptime of your servers?
-  - Do you agree that uptime is a good indicator for system reliability?
-
-- How do you test fault tolerance? Do you have some kind of "Chaos Monkey"?
-  - For understanding, read: http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html
-
-- Is there a process for self-build packages (.deb/.rpm/.msi) to be put on some internal repository when an official repository can't provide a package/bugfix?
-
-## Monitoring / On-call duty
-- What monitoring application do you use? (Nagios, Icinga, Zabbix, etc.)
-
-- How does it inform me of an error condition? (Email, SMS, big monitors in each teams room, etc.)
-
-- Is there a permanent on-call duty for each IT team?
-
-- Is there a permanent "control center" that keeps track of events and informs the responsible on-call duty? Or is the on-call duty activated by eMails/SMS sent by the monitoring system?
-
-- Is there an escalation process if somebody can't be reached?
-
-- Do the developers/operating also have an on-call duty? (In case they do the application rollout/-back, etc.)
-
-- Does time working on incidents/problems afterhours, when on on-call duty, count as worktime? Or is it payed with my on-call duty extra payment? Or both? Do you even pay for on-call duty?
-
-- Is on-call duty commonly mistaken for "Do project stuff afterhours because you are reachable" by project managers in your company?
-
-## Network administration
-- How do you manage IP addresses and DNS records on your network?
-
-- What are your plans for (switching to) IPv6?
-
-- Do you categorize your networks? (database server network, frontend network, middleware network?) Or just everything mixed together in various networks?
-
-- Are DEV/QA/PreLIVE/LIVE systems all in one big network? Or do you got separate networks for them? Are they firewalled so a DEV system can't DoS a LIVE system?
-
-- How is the process to get new firewall rules on internal/external firewalls?
-
 ##Culture
 
-- What would my role at the company be?
+- What would my role at the company be? Where would I be working within the organization?
 
--	These are tough economic times, and every position is precious when it comes to the budget. Why did you decide to hire somebody for this position instead of the many other roles / jobs you could have hired for? What about this position made your prioritize it over others?
+-	Why are you hiring for this position?
 
 -	What is the rhythm to the work around here? Is there a time of year that it's all hands on deck and we're pulling all-nighters, or is it pretty consistent throughout the year? How about during the week / month? Is it pretty evenly spread throughout the week / month, or are there crunch days?
 
--	In my career, I've primarily enjoyed working with big / small / growing / independent / private / public / family-run companies. If that's the case, how successful will I be at your firm?
-
 - What made you (the interviewer) choose to join this company?
+  - What do you enjoy the most about working here?
 
--	Who are the heroes at your company? What characteristics do the people who are most celebrated have in common with each other? Conversely, what are the characteristics that are common to the promising people you hired, but who then flamed out and failed or left? As I'm considering whether or not I'd be successful here, how should I think about the experiences of the heroes and of the flame-outs?
+-	Who are the heroes at your company? What characteristics do the people who are most celebrated have in common with each other?
 
-- Where would I be working in the organization?
-
-- What is your reward system? Is it a star system / team-oriented / equity-based / bonus-based / "attaboy!"-based? Why is that your reward system? What do you guys hope to get out of it, and what actually happens when you put it into practice? What are the positives and the negatives of your reward system? If you could change any one thing, what would it be?
+- Is there a company reward system for employee accomplishments?
 
 -	What type of people are successful here? What type of people are not?
 
