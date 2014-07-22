@@ -209,6 +209,9 @@ Use your discretion when choose what questions to ask and when to ask them.
 - What is the average uptime of your servers?
   - Do you agree that uptime is a good indicator for system reliability?
 
+- How do you test fault tolerance? Do you have some if "Chaos Monkey"?
+  - Read: http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html
+
 - Is there a process for self-build packages (.deb/.rpm/.msi) to be put on some internal repository when an official repository can't provide a package/bugfix?
 
 ## Monitoring / On-call duty
