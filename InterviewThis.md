@@ -63,7 +63,7 @@ Use your discretion when choose what questions to ask and when to ask them.
     - Turn Around Time TAT?  
     - Average Speed to Answer (ASA)
     - Time Service Factor (TSF)
-  - What is the esclation plan?  What are the consequences if the plan is not followed?
+  - What is the escalation plan?  What are the consequences if the plan is not followed?
   - Do you have on call hours?
     - What is the on call schedule 
 
