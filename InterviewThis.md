@@ -37,17 +37,21 @@ Use your discretion when choosing what questions to ask and when to ask them.
 - Do you maintain separate release and dev branches? (git-flow?)
 
 - Will I be provided with a new laptop?
+
+  *(Author Note: These are basically more direct versions of the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) "best tools" question.)*
+
   - Windows, Mac or Linux? Do I get a choice?
   - Am I allowed to install anything I want on that laptop?
-  - Will it have an SSD?
+  - Will it have an SSD and as much ram as can fit?
   - How hard do I have to justify software purchases?
   - How often will I receive hardware upgrades?
+  
 
 - Which comes first, bugs or features? Are detailed requirements for both determined and documented prior to work beginning?
 
 - Single product, or will I be regularly working on different projects?
 
-- How frequently does your company start a new project?
+- How frequently does your company/team start a new project?
 
 - Will I communicate directly with clients on a regular basis, or does this typically happen through an intermediary?
 
@@ -126,6 +130,8 @@ Use your discretion when choosing what questions to ask and when to ask them.
 
 - Do you use open source libraries, and are you aware of the licensing on those libraries?
 
+- Do you contribute to open source libraries?
+
 
 ##PHP
 
@@ -143,13 +149,15 @@ Use your discretion when choosing what questions to ask and when to ask them.
 
 ##JavaScript
 
-- jQuery, Prototype, Underscore, Zepto, Dojo, or other?
+- What is your frontend software stack? (jQuery 1 or 2?, Underscore/Lodash?, Angular/Ember/React?, etc)
+  - Why did you make those choices?
 
-- Do you use a templating engine, such as Mustache or Handlebars?
+- Do you use a templating engine, such as EJS, Jade, or Handlebars?
 
-- Coffeescript? (If yes, is it required?)
+- Coffeescript or other transpiler? (If yes, is it required?)
 
-- Does your code follow Crockford code conventions?
+- Does your code follow a public style guide definition? (Crockford, Standard JS, etc)
+  - Is there an automated linting process to validate your styles?
   - Semicolons?
   - camelCase variables?
 
@@ -235,21 +243,23 @@ Use your discretion when choosing what questions to ask and when to ask them.
 
 ##Developer Coordination
 
-- How many developers do you currently have?
+- How is your team structured?
+  - How many developers do you currently have?
+  - How large are your team groups?
+  - Vertical slices or Horizontal?
 
-- How large are your teams?
+- Are teams seated together?
+
+- Do teams have isolated areas from the rest of the staff / other teams?
 
 - How frequently do team members find themselves in meetings?
 
 - Do your developers pair program on a regular basis?
 
-- Do you have a methodology for project management (Agile, scrum, etc?)
+- Do you follow an agile methodology for project management (Kanban, scrum, etc)
 
 - Do your developers use screen sharing or collaborative coding tools?
 
-- Are teams seated together?
-
-- Do teams have isolated areas from the rest of the staff / other teams?
 
 ##Culture
 
@@ -329,8 +339,4 @@ Use your discretion when choosing what questions to ask and when to ask them.
 - Do I own the code I make in my own time on my own hardware?
 
 - Will the company pay for training programs / certifications / conferences? What is the approval process like?
-
-
-
-
 
