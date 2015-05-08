@@ -1,16 +1,16 @@
 ###Disclaimer
 
-This is not a checklist, this is not a shopping list. If you send this entire list to an employer, they probably wont be calling you back. This list is intended to serve as a reference point for things to be aware of during your interview process. Not all of these questions will be relevant to every person or position, you should choose the ones that are relevant to you and what you are interviewing for.  It's ok for there to be questions on this list that you personally do not care about.
+This is not a checklist, this is not a shopping list. If you send this entire list to an employer, they probably won't be calling you back. This list is intended to serve as a reference point for things to be aware of during your interview process. Not all of these questions will be relevant to every person or position, you should choose the ones that are relevant to you and what you are interviewing for.  It's OK for there to be questions on this list that you personally do not care about.
 
 The questions on this list are not all appropriate for the initial interview, many could not even be answered by the HR person likely to conduct an initial interview. This list is intended to be a comprehensive collection of things a developer may want to know about a company before they accept an offer.
 
-Use your discretion when choose what questions to ask and when to ask them.
+Use your discretion when choosing what questions to ask and when to ask them.
 
 #Interview This!
 
 ##Development Process
 
-- What will be my day to day responsibilities?
+- What will be my day to day responsibilities? How much time do you anticipate I would spend on each one?
 
 - What source control do you use? Can you explain why you chose it?
 
@@ -18,7 +18,7 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - What is your workflow currently, with regards to developers pushing changes. Do you do pull requests, or does everyone just merge to a central repo?
 
-- Are you using a ticket system or is it more play it by ear? 
+- Are you using a ticket system or is it more play it by ear? Do you use the same system for both bugs and new features?
 
 - Do you have a code review process?
 
@@ -41,8 +41,9 @@ Use your discretion when choose what questions to ask and when to ask them.
   - Am I allowed to install anything I want on that laptop?
   - Will it have an SSD?
   - How hard do I have to justify software purchases?
+  - How often will I receive hardware upgrades?
 
-- Which comes first, bugs or features?
+- Which comes first, bugs or features? Are detailed requirements for both determined and documented prior to work beginning?
 
 - Single product, or will I be regularly working on different projects?
 
@@ -59,14 +60,15 @@ Use your discretion when choose what questions to ask and when to ask them.
 - How do you handle change requests?
 
 - Do you have a SLA (Service Layer Agreement)?
-  - Do you gaurentee any of the following? If so, how long?
+  - Do you guarantee any of the following? If so, how long?
     - Turn Around Time TAT?  
     - Average Speed to Answer (ASA)
     - Time Service Factor (TSF)
   - What is the escalation plan?  What are the consequences if the plan is not followed?
   - Do you have on call hours?
-    - What is the on call schedule 
+    - What is the on-call schedule?
 
+- How satisfied are your engineers with their current toolset? If they had to replace one tool, which would it be and what would they replace it with?
 
 
 ##Remote
@@ -85,7 +87,7 @@ Use your discretion when choose what questions to ask and when to ask them.
  
 - How frequently will I be expected to visit the office?
 
-- Will my visits be reimbursed?
+- Will my visits be reimbursed or covered outright by the company?
 
 - How flexible are my hours? Can I take time off during the day if needed and make up for it in the evenings?
 
@@ -94,8 +96,9 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - How old is your codebase?
 
-- Do you unit test?
-  - What libraries do you use?
+- Do you have an automated test suite?
+  - What libraries and tools do you use?
+  - What sorts of tests do you use? (unit, integration, system, load, ...)
   - What is your testing methodology? (BDD, TDD, Spike & Stabilize, ...)
   - What is your current level of test coverage? Are you happy with it?
 
@@ -103,15 +106,17 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - On a scale of 1 to 10, how much spaghetti code do you have?
 
-- How well documented is your codebase?
+- How well-documented is your codebase?
   - Do you use automated documentation systems like PHPDoc or JSDoc?
   - Do you maintain a wiki?
 
 - Pure CSS, or compiled middleware (LESS, SASS, etc)?
 
-- What is your minimum supported version of IE?
+- What browser and operating system versions do you support?
 
 - Does your codebase require a build process, and is it automated?
+
+- Do you have a continuous integration process implemented?
 
 - Do you use MVC or similar code structuring?
 
@@ -127,12 +132,12 @@ Use your discretion when choose what questions to ask and when to ask them.
 - Do you use a public framework or is it an in-house environment?
   - When you find a bug in a public framework, do you give it back to the commumnity?
 
-- Do you use PHP driven html templates, or a third-party template engine such as Smarty or Twig?
+- Do you use PHP-driven HTML templates, or a third-party template engine such as Smarty or Twig?
 
 - Do you use Composer?
 
 - Which version of PHP are you using? 
-  - What is the update plan for new PHP releases
+  - What is the update plan for new PHP releases?
 
 
 
@@ -207,7 +212,11 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 ## Monitoring / On-call duty
 
+- Do you have any application-level logging? If so, how are logs accessed?
+
 - Do you use any monitoring software? (Nagios, Icinga, Zabbix, etc.)
+
+- Do you regularly record and review application performance metrics? How are performance optimizations prioritized with respect to other types of tasks?
 
 - How does it inform staff of error conditions? (Email, SMS, big monitors in each teams room, etc.)
 
@@ -221,7 +230,7 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 - Does time working on incidents/problems afterhours, when on on-call duty, count as overtime?
 
-- Are employees expected to be doing afterhours work while waiting on-call?
+- Are employees expected to be doing after-hours work while waiting on-call?
 
 
 ##Developer Coordination
@@ -259,9 +268,7 @@ Use your discretion when choose what questions to ask and when to ask them.
 
 -	What type of people are successful here? What type of people are not?
 
-- Am I allowed to take my work home with me?
-
-- Am I expected to take my work home with me?
+- Am I allowed or expected to take my work home with me?
 
 - What are the expectations with regards to hours worked, deadlines, and overtime?
 
