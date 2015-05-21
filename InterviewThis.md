@@ -142,9 +142,14 @@ Use your discretion when choosing what questions to ask and when to ask them.
 
 - Do you use Composer?
 
+- Is your code-style following PSR standards?
+ 
+- Does your team try hard to follow good design principles such as: SOLID, DRY, Object calisthenics?
+
+- Do you encourage your developers to take the ZCE exam?
+
 - Which version of PHP are you using? 
   - What is the update plan for new PHP releases?
-
 
 
 ##JavaScript
