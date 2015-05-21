@@ -22,9 +22,17 @@ Use your discretion when choosing what questions to ask and when to ask them.
 
 - Do you have a code review process?
 
+- Does your team encourage the use of SOLID and DRY design principles to avoid cyclomatic complexity?
+  - What is your take on object calisthenics?
+
+- What is your team's process for choosing third party code libraries?
+
 - Do you have established code style rules?
-  - Tabs or spaces?
-  - Allman or BSD braces?
+  - Did you create your own style guide, or are you using a third party's (PEP8, PSRs, Standard JS, etc)
+  - Is there an automated linting process to validate your styles?
+  - Tabs or spaces? (If relevent)
+  - Allman or BSD braces? (If relevent)
+  - Semicolons? (If relevent)
 
 - What are your development environments like?
   - Virtual Machines?  Local (VirtualBox) or Remote (ESXi)?
@@ -142,10 +150,6 @@ Use your discretion when choosing what questions to ask and when to ask them.
 
 - Do you use Composer?
 
-- Is your code-style following PSR standards?
- 
-- Does your team try hard to follow good design principles such as: SOLID, DRY, Object calisthenics?
-
 - Do you encourage your developers to take the ZCE exam?
 
 - Which version of PHP are you using? 
@@ -160,11 +164,6 @@ Use your discretion when choosing what questions to ask and when to ask them.
 - Do you use a templating engine, such as EJS, Jade, or Handlebars?
 
 - Coffeescript or other transpiler? (If yes, is it required?)
-
-- Does your code follow a public style guide definition? (Crockford, Standard JS, etc)
-  - Is there an automated linting process to validate your styles?
-  - Semicolons?
-  - camelCase variables?
 
 ## System & Network Administration / IT Operations
 
