@@ -304,7 +304,7 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 
 ##Company
 
-- What's the biggest change your group has gone through in the last year? Does your group feel like the recession is over and things are getting better, or are things still pretty bleak?
+- What's the biggest change your group has gone through in the last year?
 
 -	If I get the job, how do I earn a "gold star" on my performance review? What are the key accomplishments you'd like to see in this role over the next year?
 
