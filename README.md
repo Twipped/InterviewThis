@@ -75,7 +75,7 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
  
 - How do you handle change requests?
 
-- Do you have a SLA (Service Layer Agreement)?
+- Do you have an SLA (Service Level Agreement)?
   - Do you guarantee any of the following? If so, how long?
     - Turn Around Time TAT?  
     - Average Speed to Answer (ASA)
