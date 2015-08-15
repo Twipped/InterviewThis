@@ -197,7 +197,7 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 - Do you use the same OS distribution on all your servers, or is each server configured for specific needs?
   - Why did you choose your OS? What were the requirements?
 
-- Are development systems and services standarized, or do developers choose their own environments?
+- Are development systems and services standardized, or do developers choose their own environments?
 
 - Do tools need to be approved before use, or may I use whatever I want?
 
