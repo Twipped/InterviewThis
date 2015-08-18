@@ -29,7 +29,7 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 - Does your team encourage the use of SOLID and DRY design principles to avoid cyclomatic complexity?
   - What is your take on object calisthenics?
 
-- What is your team's process for choosing third party code libraries?
+- What is your team's process for choosing, adding, and removing third-party code libraries?
 
 - Do you have established code style rules?
   - Did you create your own style guide, or are you using a third party's (PEP8, PSRs, Standard JS, etc)
