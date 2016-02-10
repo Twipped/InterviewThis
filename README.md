@@ -34,9 +34,9 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 - Do you have established code style rules?
   - Did you create your own style guide, or are you using a third party's (PEP8, PSRs, Standard JS, etc)
   - Is there an automated linting process to validate your styles?
-  - Tabs or spaces? (If relevent)
-  - Allman or BSD braces? (If relevent)
-  - Semicolons? (If relevent)
+  - Tabs or spaces? (If relevant)
+  - Allman or BSD braces? (If relevant)
+  - Semicolons? (If relevant)
 
 - What are your development environments like?
   - Virtual Machines?  Local (VirtualBox) or Remote (ESXi)?
@@ -148,7 +148,7 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 ##PHP
 
 - Do you use a public framework or is it an in-house environment?
-  - When you find a bug in a public framework, do you give it back to the commumnity?
+  - When you find a bug in a public framework, do you give it back to the community?
 
 - Do you use PHP-driven HTML templates, or a third-party template engine such as Smarty or Twig?
 
@@ -172,7 +172,7 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 ## System & Network Administration / IT Operations
 
 - Do you use a configuration management tool? (Puppet, Chef, cfengine, Ansible)
-  - Why was it choosen?
+  - Why was it chosen?
   - Is its use accepted throughout your IT staff?
 
 - Are configurations version controlled?
@@ -322,7 +322,7 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 
 -	What's the timeline for making a decision on this position? When should I get back in touch with you?
 
--	If we have a very successful 2015, what would that look like? What will have have happened over the next 12 months? How does this position help achieve that?
+-	If we have a very successful 2016, what would that look like? What will have happened over the next 12 months? How does this position help achieve that?
 
 -	What's your (or my future boss') leadership style?
 
