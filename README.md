@@ -80,13 +80,13 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
   - If there is a separate testing team, how is the co-ordination done between testing and development?
   - How is the decision made that a release is ready?
 
-- Who determines the featuers that would go into the product? How are these chosen?
+- Who determines the features that would go into the product? How are these chosen?
   - How are developers involved in that decision?
   - How are testers involved in that process?
 
 - Who designs the User Interface?
   - Are developers expected to do it?
-  - Are there graphics deisgners in the company?
+  - Are there graphics designers in the company?
   - Are there UI/UX designers in the company?
 
 - Are there compliance requirements in the company like CMM or SOC?
