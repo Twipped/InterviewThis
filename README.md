@@ -10,22 +10,24 @@ Use your discretion when choosing what questions to ask and when to ask them.
 
 Pull requests and Issues are very welcomed and encouraged, but please don't get offended if I reject your question or do not merge your question verbatim. I may ask that you reword it to be clearer, or may even rewrite it myself.
 
-#Interview This!
+# Interview This!
 
 ## The Position
 
 - Why are you hiring for this position?
 
-- What would my role at the company be? Where would I be working within the organization?
+- What would my role at the company be?
+  - Where would I be working within the organization?
 
-- What will be my day to day responsibilities? How much time do you anticipate I would spend on each one?
+- How long am I expected to remain in this position?
+
+- What will be my day to day responsibilities?
+  - How much time do you anticipate I would spend on each one?
 
 - What programming languages will I be expected to work in?
   - Will the company grant me time to learn any languages that I need to use but do not know?
 
 - Do you have a target salary range?
-
-- What's the time-line for making a decision on this position? When should I get back in touch with you?
 
 
 ## Developer Coordination / Team Interactions
@@ -154,6 +156,32 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 - How satisfied are your engineers with their current toolset? If they had to replace one tool, which would it be and what would they replace it with?
 
 
+## Monitoring / On-call duty
+
+- Do you have any application-level logging? If so, how are logs accessed?
+    - Are logs aggregated across multiple hardware?
+    - Are your logs search-able?
+    - How verbose is your logging?
+
+- Do you use any monitoring software? (Nagios, Icinga, Zabbix, etc.)
+
+- Do you regularly record and review application performance metrics? How are performance optimizations prioritized with respect to other types of tasks?
+
+- How does it inform staff of error conditions? (PagerDuty, Email, SMS, big monitors in each teams room, etc.)
+
+- Is there a permanent on-call duty for each IT team?
+
+- Is there a permanent "control center" that keeps track of events and informs the responsible on-call duty?
+
+- Is there an escalation process if someone cannot be reached?
+
+- Do the developers also have an on-call duty?
+
+- Does time working on incidents/problems after-hours, when on on-call duty, count as overtime?
+
+- Are employees expected to be doing after-hours work while waiting on-call?
+
+
 ## Remote
 
 - What timezone/hours does the team work in?
@@ -175,6 +203,20 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 - Will my visits be reimbursed or covered outright by the company?
 
 - How flexible are my hours? Can I take time off during the day if needed and make up for it in the evenings?
+
+
+## Open Source
+
+- Do you use open source libraries?
+    - Are you aware of the licensing on those libraries?
+
+- Does your company release open source code?
+
+- Does your company contribute to (or encourage their developers to contribute to) open source libraries?
+
+- What is the company policy with regards to me releasing open source code (personal projects)?
+  - If there is an approval process, how lengthy is it?
+  - Is the process formalized?
 
 
 ## Codebase / Architecture
@@ -209,117 +251,17 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 
 - Do you host your product yourself (Local, CoLo, VPS) or is it running on a cloud platform such as AWS or Heroku?
 
-## PHP
 
-- Do you use a public framework or is it an in-house environment?
-  - When you find a bug in a public framework, do you give it back to the community?
+## Diversity
 
-- Do you use PHP-driven HTML templates, or a third-party template engine such as Smarty or Twig?
+- What percentage of the company is non-male?
 
-- Do you use Composer?
+- What percentage of the company is non-white?
 
-- Do you encourage your developers to take the ZCE exam?
+- What percentage of the company is LGBTQ?
 
-- Which version of PHP are you using?
-  - What is the update plan for new PHP releases?
+- What percentage of the company is non-development staff?
 
-
-## JavaScript
-
-- What is your frontend software stack? (jQuery?, Underscore/Lodash?, Angular/Ember/React?, etc)
-  - Why did you make those choices?
-
-- Is your front-end code bundled using a module loader such as Webpack or Browserify?
-
-- Do you use a templating engine, such as EJS, Jade, or Handlebars?
-
-- Do you use a compiled language such as Coffeescript or Typescript? (If yes, is it required?)
-
-- Do you use NodeJS?
-
-
-## System & Network Administration / IT Operations
-
-- Do you use a configuration management tool? (Puppet, Chef, cfengine, Ansible)
-  - Why was it chosen?
-  - Is its use accepted throughout your IT staff?
-
-- Are configurations version controlled?
- 
-- What is the process for granting a user access rights (RDP, SSH, etc.) to a system?
-
-- Are there multiple access levels for different classes of user?
-
-- Do developers have admin/root rights on systems?
-  - If yes: Why?
- 
-- Do you have different staging environments for testing/development? (Like: DEV, QA, PreLIVE, LIVE)
-
-- Are developers allowed to connect to systems outside of the development environment?
-
-- Do you have a Change Management process? (ITIL, etc.)
- 
-- How do you organize system administration, application development, application deployment and application operating so they fit together?
- 
-- Is there a wiki for server documentation/howtos/best practises?
- 
-- Do you use the same OS distribution on all your servers, or is each server configured for specific needs?
-  - Why did you choose your OS? What were the requirements?
-
-- Are development systems and services standardized, or do developers choose their own environments?
-
-- Do tools need to be approved before use, or may I use whatever I want?
-
-- How frequently do you replace server hardware?
- 
-- Do I have to replace hardware parts myself or is there a dedicated team / external contractor?
-
-- What software / services do you use to load balance?
-
-- Are your applications architectured for horizontal or vertical scaling?
-
-- What is the average uptime of your servers?
-  - Do you consider uptime to be a good indicator for system reliability?
-
-- How do you test fault tolerance? Do you have some kind of "[Chaos Monkey](http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html)"?
-
-- Is there a process for self-build packages (.deb/.rpm/.msi) to be put on some internal repository when an official repository can't provide a package/bugfix?
- 
-- How do you manage IP addresses and DNS records on your network?
-
-- Do you have plans for (switching to) IPv6?
-
-- Do you categorize your networks? (database server network, frontend network, middleware network?) or is everything mixed together in various networks?
-
-- Are DEV/QA/PreLIVE/LIVE systems all in one big network, or is each on a separate network? Are they firewalled so a DEV system can't DoS a LIVE system?
-
-- What is the process for managing rules on internal/external firewalls?
-
-
-## Monitoring / On-call duty
-
-- Do you have any application-level logging? If so, how are logs accessed?
-    - Are logs aggregated across multiple hardware?
-    - Are your logs search-able?
-    - How verbose is your logging?
-
-- Do you use any monitoring software? (Nagios, Icinga, Zabbix, etc.)
-
-- Do you regularly record and review application performance metrics? How are performance optimizations prioritized with respect to other types of tasks?
-
-- How does it inform staff of error conditions? (PagerDuty, Email, SMS, big monitors in each teams room, etc.)
-
-- Is there a permanent on-call duty for each IT team?
-
-- Is there a permanent "control center" that keeps track of events and informs the responsible on-call duty?
-
-- Is there an escalation process if someone cannot be reached?
-
-- Do the developers also have an on-call duty?
-
-- Does time working on incidents/problems after-hours, when on on-call duty, count as overtime?
-
-- Are employees expected to be doing after-hours work while waiting on-call?
 
 ## Culture
 
@@ -392,27 +334,92 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 
 - What is the company policy with regards to side projects? Am I allowed to work on my own sites?
 
-
-## Diversity
-
-- What percentage of the company is non-male?
-
-- What percentage of the company is non-white?
-
-- What percentage of the company is LGBTQ?
-
-- What percentage of the company is non-development staff?
-
-
-## Open Source
-
-- Do you use open source libraries?
-    - Are you aware of the licensing on those libraries?
-
-- Does your company release open source code?
-
-- Does your company contribute to (or encourage their developers to contribute to) open source libraries?
-
-- What is your company policy with regards to me releasing open source code (personal projects)? If there is an approval process, how lengthy is it?
-
 - Do I own the code I make in my own time on my own hardware, or does the company claim it as theirs?
+
+
+## PHP
+
+- Do you use a public framework or is it an in-house environment?
+  - When you find a bug in a public framework, do you give it back to the community?
+
+- Do you use PHP-driven HTML templates, or a third-party template engine such as Smarty or Twig?
+
+- Do you use Composer?
+
+- Do you encourage your developers to take the ZCE exam?
+
+- Which version of PHP are you using?
+  - What is the update plan for new PHP releases?
+
+
+## JavaScript
+
+- What is your frontend software stack? (jQuery?, Underscore/Lodash?, Angular/Ember/React?, etc)
+  - Why did you make those choices?
+
+- Is your front-end code bundled using a module loader such as Webpack or Browserify?
+
+- Do you use a templating engine, such as EJS, Jade, or Handlebars?
+
+- Do you use a compiled language such as Coffeescript or Typescript? (If yes, is it required?)
+
+- Do you use NodeJS as a software platform? (ie, beyond tooling)
+
+
+## System & Network Administration / IT Operations
+
+- Do you use a configuration management tool? (Puppet, Chef, cfengine, Ansible)
+  - Why was it chosen?
+  - Is its use accepted throughout your IT staff?
+
+- Are configurations version controlled?
+ 
+- What is the process for granting a user access rights (RDP, SSH, etc.) to a system?
+
+- Are there multiple access levels for different classes of user?
+
+- Do developers have admin/root rights on systems?
+  - If yes: Why?
+ 
+- Do you have different staging environments for testing/development? (Like: DEV, QA, PreLIVE, LIVE)
+
+- Are developers allowed to connect to systems outside of the development environment?
+
+- Do you have a Change Management process? (ITIL, etc.)
+ 
+- How do you organize system administration, application development, application deployment and application operating so they fit together?
+ 
+- Is there a wiki for server documentation/howtos/best practises?
+ 
+- Do you use the same OS distribution on all your servers, or is each server configured for specific needs?
+  - Why did you choose your OS? What were the requirements?
+
+- Are development systems and services standardized, or do developers choose their own environments?
+
+- Do tools need to be approved before use, or may I use whatever I want?
+
+- How frequently do you replace server hardware?
+ 
+- Do I have to replace hardware parts myself or is there a dedicated team / external contractor?
+
+- What software / services do you use to load balance?
+
+- Are your applications architectured for horizontal or vertical scaling?
+
+- What is the average uptime of your servers?
+  - Do you consider uptime to be a good indicator for system reliability?
+
+- How do you test fault tolerance? Do you have some kind of "[Chaos Monkey](http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html)"?
+
+- Is there a process for self-build packages (.deb/.rpm/.msi) to be put on some internal repository when an official repository can't provide a package/bugfix?
+ 
+- How do you manage IP addresses and DNS records on your network?
+
+- Do you have plans for (switching to) IPv6?
+
+- Do you categorize your networks? (database server network, frontend network, middleware network?) or is everything mixed together in various networks?
+
+- Are DEV/QA/PreLIVE/LIVE systems all in one big network, or is each on a separate network? Are they firewalled so a DEV system can't DoS a LIVE system?
+
+- What is the process for managing rules on internal/external firewalls?
+
