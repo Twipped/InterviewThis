@@ -52,14 +52,21 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 - Do you follow an agile methodology for project management (Kanban, scrum, etc)
 
 - How do you assign work?
-  - How is priority determined?
   - Do you pre-assign tasks based on proficiencies, or are all members expected to be equally proficient?
+
+- How do you estimate work?
+
+- Single product, or will I be regularly working on different projects?
+
+- How frequently does your company/team start a new project?
 
 - What are your group's best and worst working relationships with other groups in the company?
 
 - How frequently does your team interact with other teams?
 
 - Do you find yourself frequently blocked by dependencies from other teams?
+
+- What hours does the team work?
 
 
 ## Development Process
@@ -75,15 +82,23 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 
 - Are you using a ticket system or is it more play it by ear?
   - Do you use the same system for both bugs and new features?
+  - How is priority determined?
+  - What comes first, bugs or features?
+  - Are detailed requirements for tasks determined and documented ahead of time?
+  - How are tasks added to the backlog?
 
+- Who determines the features that would go into the product? How are these chosen?
+  - How are developers involved in that decision?
+  - How are testers involved in that process?
+
+- How do you track development time?
+ 
 - Do you have a code review process?
   - Does your code review process prevent deploying code?
   - Does your code review process promote empathy?
 
 - Does your team encourage the use of SOLID and DRY design principles to avoid cyclomatic complexity?
   - What is your take on object calisthenics?
-
-- What is your team's process for choosing, adding, and removing third-party code libraries?
 
 - Do you have established code style rules?
   - Did you create your own style guide, or are you using a third party's (PEP8, PSRs, Standard JS, etc)
@@ -98,10 +113,6 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
   - Are you using vagrant and/or puppet/chef?
   - How closely do the dev environments mirror your production environment?
 
-- What is your release schedule like?
-
-- Do you maintain separate release and dev branches? (git-flow?)
-
 - Will I be provided with a new laptop?
 
   *(Author Note: These are basically more direct versions of the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html) "best tools" question.)*
@@ -112,35 +123,21 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
   - How hard do I have to justify software purchases?
   - How often will I receive hardware upgrades?
 
-- Which comes first, bugs or features? Are detailed requirements for both determined and documented prior to work beginning?
-
-- Single product, or will I be regularly working on different projects?
-
-- How frequently does your company/team start a new project?
+- What is your release schedule like?
 
 - Will I communicate directly with clients on a regular basis, or does this typically happen through an intermediary?
 
-- Do developers make estimates on deliverables, or are due dates normally decided upon ahead of time?
-
 - What can I expect to see in terms of project specifications and/or mock-ups prior to beginning a new project?
-
-- How do you track development time?
- 
-- How do you handle change requests?
 
 - How is QA/testing done?
   - Are developers expected to do testing as well? To what extent?
   - If there is a separate testing team, how is the co-ordination done between testing and development?
   - How is the decision made that a release is ready?
 
-- Who determines the features that would go into the product? How are these chosen?
-  - How are developers involved in that decision?
-  - How are testers involved in that process?
-
 - Who designs the User Interface?
   - Are developers expected to do it?
   - Are there graphics designers in the company?
-  - Are there UI/UX designers in the company?
+  - Are there UX designers in the company?
 
 - Are there compliance requirements in the company like CMM or SOC?
 
@@ -184,13 +181,13 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 
 ## Remote
 
-- What timezone/hours does the team work in?
+- What timezone/hours does the company work in?
 
-- Will the company pay for home office equipment such as monitors or furniture?
+- Will the company pay for home office equipment such as electronics or furniture?
   - If yes, will that equipment be considered company property?
   - Would I have to return it if/when I leave the company?
 
-- Do you have a team chat setup such as IRC or Jabber? Do your developers actively use it, is it their primary communication channel?
+- Do you have a team chat setup such as Slack or Jabber? Do your developers actively use it, is it their primary communication channel?
 
 - Do your developers use video chat software such as Skype or Google Hangouts?
 
@@ -200,7 +197,7 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
  
 - How frequently will I be expected to visit the office?
 
-- Will my visits be reimbursed or covered outright by the company?
+- Will my visits and travel costs be reimbursed, or covered outright by the company?
 
 - How flexible are my hours? Can I take time off during the day if needed and make up for it in the evenings?
 
