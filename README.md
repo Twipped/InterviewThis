@@ -122,6 +122,7 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
   - Will it have an SSD and as much ram as can fit?
   - How hard do I have to justify software purchases?
   - How often will I receive hardware upgrades?
+  - What is the Policy if laptop get break/corrupted?
 
 - What is your release schedule like?
 
@@ -138,6 +139,7 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
   - Are developers expected to do it?
   - Are there graphics designers in the company?
   - Are there UX designers in the company?
+  - Are Full Stack Developers responsible to design User Interface?
 
 - Are there compliance requirements in the company like CMM or SOC?
 
@@ -196,6 +198,10 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
 - Will I have to work over a VPN?
  
 - How frequently will I be expected to visit the office?
+
+- Does the company have multiple working shifts?
+
+- Does the company work in Remote/Offline/Hybrid mode?
 
 - Will my visits and travel costs be reimbursed, or covered outright by the company?
 
