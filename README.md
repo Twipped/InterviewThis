@@ -122,7 +122,7 @@ Pull requests and Issues are very welcomed and encouraged, but please don't get 
   - Will it have an SSD and as much ram as can fit?
   - How hard do I have to justify software purchases?
   - How often will I receive hardware upgrades?
-  - What is the Policy if laptop get break/corrupted?
+  - What is the Policy if a laptop is broken or corrupted?
 
 - What is your release schedule like?
 
